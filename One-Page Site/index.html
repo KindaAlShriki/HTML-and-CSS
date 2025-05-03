@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Neon Vibes</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background-color: #121212;
+      padding: 1em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+    nav a {
+      color: #00ffe7;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #00ffe7;
+    }
+    .images-section img {
+      width: 220px;
+      margin: 12px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffe7;
+    }
+    .video-section iframe {
+      width: 80%;
+      height: 400px;
+      max-width: 700px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 0 15px #ff00ff;
+    }
+    .contact-form input, .contact-form textarea {
+      display: block;
+      margin: 12px auto;
+      padding: 12px;
+      width: 80%;
+      max-width: 400px;
+      border: 2px solid #00ffe7;
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #ff00ff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .contact-form button:hover {
+      background-color: #e600e6;
+    }
+    footer {
+      background-color: #121212;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#images">Images</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>Neon Vibes</h1>
+    <p>Welcome to the glow. Experience a dark-themed, neon-lit single-page website built with HTML and CSS.</p>
+  </section>
+
+  <section id="images" class="images-section">
+    <h2>Neon Gallery</h2>
+    <img src="https://cdn.pixabay.com/photo/2017/07/20/08/21/neon-light-2521551_1280.jpg" alt="Neon image">
+    <img src="https://cdn.pixabay.com/photo/2017/07/20/08/21/neon-light-2521551_1280.jpg" alt="Neon image">
+    <img src="https://cdn.pixabay.com/photo/2017/07/20/08/21/neon-light-2521551_1280.jpg" alt="Neon image">
+  </section>
+
+  <section id="videos" class="video-section">
+    <h2>Watch the Light</h2>
+<iframe width="914" height="514" src="https://www.youtube.com/embed/Z0NIxY7svlM" title="NEON VJ LOOP Party Lights Background Effects ⚡️ Strobe DJ Flashing Disco Lights COMPILATION 10 Hr ☄️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Glow With Us</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kinda AlShriki. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
